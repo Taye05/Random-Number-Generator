@@ -1,0 +1,36 @@
+body {
+  font-size: 90px;
+  text-align: center;
+  margin: auto;
+  font-family: "Fredoka One", cursive;
+  background-color: rgb(253, 248, 237);
+}
+
+.btn {
+  font-size: large;
+  width: 250px;
+  border-radius: 12px;
+  background-color: rgb(175, 255, 255);
+}
+
+.btn:hover {
+  color: cadetblue;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 40px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .btn {
+    width: 150px;
+  }
+}
